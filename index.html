@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>네비게이션 바 예제</title>
+  <style>
+    /* 상단 바 스타일 */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: black;
+      padding: 15px;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    /* 네비게이션 안의 링크 스타일 */
+    .navbar a {
+      color: white;          /* 흰색 글씨 */
+      text-decoration: none; /* 밑줄 제거 */
+      margin: 0 15px;        /* 메뉴 간격 */
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+    }
+
+    /* 마우스를 올리면 글자 색 바뀜 */
+    .navbar a:hover {
+      color: yellow;  /* 강조 효과 */
+    }
+
+    /* 본문이 바 밑에서 시작하도록 여백 추가 */
+    body {
+      margin: 0;
+      padding-top: 60px;
+      scroll-behavior: smooth; /* 부드러운 스크롤 효과 */
+    }
+
+    /* 섹션 스타일 (보기 좋게 구분용) */
+    section {
+      height: 600px;   /* 스크롤 내려도 구분되도록 */
+      padding: 20px;
+    }
+    #home { background: #f0f0f0; }
+    #about { background: #ddd; }
+    #contact { background: #bbb; }
+  </style>
+</head>
+<body>
+
+  <!-- 네비게이션 바 -->
+  <div class="navbar">
+    <a href="#home">홈</a>
+    <a href="#about">소개</a>
+    <a href="#contact">연락처</a>
+  </div>
+
+  <!-- 본문 -->
+  <section id="home">
+    <h1>홈 화면</h1>
+    <p>여기가 첫 화면입니다.</p>
+  </section>
+
+  <section id="about">
+    <h1>소개</h1>
+    <p>여기는 소개 섹션입니다.</p>
+  </section>
+
+  <section id="contact">
+    <h1>연락처</h1>
+    <p>이곳은 연락처 섹션입니다.</p>
+  </section>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>동방포장</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>동방포장입니다✋</p>
+  </body>
+</html>
