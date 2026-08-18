@@ -1,94 +1,94 @@
-<!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-  <meta charset="utf-8">
-  <title>동방포장입니다.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동방포장 | DONGBANG PACKAGING</title>
+
   <style>
-    
-   /* 본문이 바 밑에서 시작하도록 여백 추가 */
-   body {
-      margin: 0;   /* 브라우저 기본 여백 제거 */
-      scroll-behavior: smooth; /* 부드러운 스크롤 효과 */
-   }   
-
-    /* 상단 바 스타일 */
-    .navbar {
-
-      position: relative;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: black;
-      padding: 8px;
-      
-      text-align: left;
-      padding-left: 150px; /* 왼쪽에서 150px 띄우기 */
-      
-      border-top-left-radius: 20px;   /* 왼쪽 아래 둥글게 */
-      border-top-right-radius: 20px;  /* 오른쪽 아래 둥글게 */
-      z-index: 1000;
+    * {
+      box-sizing: border-box;
     }
 
-    /* 네비게이션 안의 링크 스타일 */
-    .navbar a {
-      color: white;          /* 흰색 글씨 */
-      text-decoration: none; /* 밑줄 제거 */
-      margin: 0 15px;        /* 메뉴 간격 */
-      font-size: 13px;
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
       font-family: Arial, sans-serif;
+      color: #142b4a;
     }
 
-    /* 마우스를 올리면 글자 색 바뀜 */
-/*
-    .navbar a:hover {
-      color: yellow;  /* 강조 효과 */
+    .container {
+      text-align: center;
+      padding: 40px 20px;
     }
-*/
-  
-    /* 섹션 스타일 (보기 좋게 구분용) */
-    section {
-      
-         padding: 20px;
 
+    .company {
+      font-size: 34px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      margin-bottom: 8px;
     }
-    #home { background: #f0f0f0; }
-    #about { background: #ddd; }
-    #contact { background: #bbb; }
+
+    .company-en {
+      font-size: 13px;
+      letter-spacing: 4px;
+      color: #718096;
+      margin-bottom: 55px;
+    }
+
+    .line {
+      width: 45px;
+      height: 2px;
+      background: #142b4a;
+      margin: 0 auto 35px;
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 500;
+      margin: 0 0 18px;
+    }
+
+    .message {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #777;
+      margin: 0;
+    }
+
+    .footer {
+      margin-top: 70px;
+      font-size: 12px;
+      color: #aaa;
+      letter-spacing: 1px;
+    }
   </style>
 </head>
+
 <body>
 
-  <!-- 네비게이션 바 -->
-  <div class="navbar">
-    <a href="#">진공성형 • 식품포장용기 • 전자Tray</a>
-    <a href="#home">☎ 031-453-9495 / 010-9268-6268 </a>
-    <a href="#about">✉ dbpackg00@daum.net </a>
-    
+  <div class="container">
+
+    <div class="company">동방포장</div>
+    <div class="company-en">DONGBANG PACKAGING</div>
+
+    <div class="line"></div>
+
+    <h1>홈페이지 리뉴얼 중입니다.</h1>
+
+    <p class="message">
+      보다 나은 서비스와 새로운 모습으로<br>
+      곧 찾아뵙겠습니다.
+    </p>
+
+    <div class="footer">
+      © DONGBANG PACKAGING. ALL RIGHTS RESERVED.
+    </div>
+
   </div>
-
-    
-
-  <!-- 본문 -->
-
-    <h1>Hello World!</h1>
-    <p>동방포장입니다✋</p>
-
-  <section id="home">
-    <h1>홈 화면</h1>
-    <p>여기가 첫 화면입니다.</p>
-  </section>
-
-  <section id="about">
-    <h1>소개</h1>
-    <p>여기는 소개 섹션입니다.</p>
-  </section>
-
-  <section id="contact">
-    <h1>연락처</h1>
-    <p>이곳은 연락처 섹션입니다.</p>
-  </section>
 
 </body>
 </html>
-
-
